@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.order-value {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .order-value {
+    font-size: 28px;
+  }
+}
+.total-label {
+  color: #616e7c;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .total-label {
+    font-size: 22px;
+  }
+}
+.item-cart {
+  color: #616e7c;
+  font-family: 'roboto';
+  font-size: 12px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .item-cart {
+    font-size: 16px;
+  }
+}
+.check-btn{
+  background-color: #0b69ff;
+  border-radius: 5px;
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px){
+  .d-sm-none{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px){
+  .d-lg-none{
+    display: none;
+  }
+}
